@@ -47,9 +47,9 @@ var studenti = [{
   "cognome": "Bianchi",
   "età": "20",
 }]
-// ciclo su tutti gli studenti e stampo nome e età
+// ciclo su tutti gli studenti e stampo nome e cognome 
 for (var i = 0; i < studenti.length; i++) {
- console.log(studenti[i].nome + " " + studenti[i].età);
+ console.log(studenti[i].nome + " " + studenti[i].cognome);
 }
 
 
